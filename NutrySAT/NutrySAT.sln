@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutrySAT", "NutrySAT\NutrySAT.csproj", "{0D8CDA4E-C9F3-4A3F-AEC7-70A6314B3635}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D8CDA4E-C9F3-4A3F-AEC7-70A6314B3635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D8CDA4E-C9F3-4A3F-AEC7-70A6314B3635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D8CDA4E-C9F3-4A3F-AEC7-70A6314B3635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D8CDA4E-C9F3-4A3F-AEC7-70A6314B3635}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E124083-3E92-4006-ADBB-60BD5DD21F3C}
+	EndGlobalSection
+EndGlobal
