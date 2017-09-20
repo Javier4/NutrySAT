@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NutrySAT
 {
-    public partial class Main : ReaperTheme.ReaperForm
+    public partial class Login : ReaperTheme.ReaperForm
     {
-        public Main()
+        public Login()
         {
             InitializeComponent();
         }

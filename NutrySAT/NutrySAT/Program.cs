@@ -16,7 +16,21 @@ namespace NutrySAT
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            Splash splash = new Splash();
+            splash.ShowDialog();
+
+            if (splash.DialogResult == DialogResult.OK)
+            {
+                Login login = new Login();
+                login.ShowDialog();
+                if (login.DialogResult == DialogResult.OK)
+                {
+                    //Application.Run(new Main(login.getUserAdmin()));
+                }
+            }
+
+            Application.Run(new Main());
         }
     }
 }

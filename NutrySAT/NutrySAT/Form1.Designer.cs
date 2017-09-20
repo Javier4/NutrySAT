@@ -1,6 +1,6 @@
 ﻿namespace NutrySAT
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -30,12 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(433, 301);
-            this.Name = "Form1";
+            this.ClientSize = new System.Drawing.Size(505, 324);
+            this.Name = "Main";
+            this.Padding = new System.Windows.Forms.Padding(2, 30, 2, 2);
             this.Text = "Form1";
             this.ResumeLayout(false);
 
